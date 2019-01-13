@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    >button {
+        flex-grow: 1;
+        &:hover + button {
+            border-left-width: 0;
+            border-left-color: #64B5F5;
+        }
+    }
+    >button:not(:last-child):not(:hover) {
+        border-right-width: 0;
+    }
+    >button:first-child {
+        border-radius: 5px 0 0 5px;
+    }
+    >button:last-child {
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+button.noRigthBorder {
+    border-right-width: 0 !important;
+}

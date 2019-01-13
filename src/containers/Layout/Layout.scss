@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header {
+    margin: 50px 0;
+}
+.header svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.loader {
+    text-align: center;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.informer{
+    width: 230px;
+    background: #fff;
+    padding: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(#5B89A4, 0.1);
+}
+
+.informer_caption {
+    font-size: 12px;
+    color: #4A4A4A;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding: 0 15px 10px 15px;
+}
+
+.tickets {
+    width: calc(100% - 250px);
+}

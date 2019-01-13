@@ -1,0 +1,84 @@
+.container {
+    width: 566px;
+    height: 160px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(91, 137, 164, 0.1);
+
+    display: flex;
+}
+
+.left {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-right: 1px solid #ECEFF1;
+    padding: 24px 20px;
+    img {
+        width: 50%;
+    }
+}
+
+.company {
+    width: 130px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.right {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 24px 20px;
+}
+
+.to {
+    text-align: right;
+}
+
+.time {
+    font-family: Helvetica;
+    font-size: 32px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+.address {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #4A4A4A;
+    line-height: 18px;
+}
+.date {
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #4A4A4A;
+    line-height: 18px;
+}
+
+.stops {
+    width: 96px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.stopsCount {
+    font-family: Helvetica;
+    font-size: 10px;
+    color: #8B9497;
+    text-align: center;
+    text-transform: uppercase;
+}
+.stopsline {
+    width: 96px;
+    height: 1px;
+    background: #D2D5D6;
+}
+

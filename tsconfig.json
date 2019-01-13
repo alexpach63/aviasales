@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"removeComments": false,
+		"noImplicitAny": true,
+		"module": "commonjs",
+		"target": "ES5",
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"noUnusedLocals": false,
+		"jsx": "react",
+		"lib": [
+			"dom",
+			"es2015",
+			"es2016",
+			"es2017"
+		],
+		"typeRoots": [
+			"node_modules/@types",
+			"src/**/*.d.ts",
+			"src/types",
+		],
+		"declaration": true,
+		"sourceMap": true,
+		"skipLibCheck": true,
+	},
+	"exclude": [
+		"demo/**/*"
+	]
+}
