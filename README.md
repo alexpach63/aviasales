@@ -1,5 +1,7 @@
 # aviasales
 
+Completed all tasks without responsive
+
 Copy and setup project
 ```sh
 $ git clone git@github.com:alexpach63/aviasales.git
